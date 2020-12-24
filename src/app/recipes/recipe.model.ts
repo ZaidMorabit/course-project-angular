@@ -1,3 +1,5 @@
+import { Observable } from "rxjs";
+
 export class Recipe{
     public name:string;
     public description: string;
@@ -7,6 +9,5 @@ export class Recipe{
         this.name = name;
         this.description = description;
         this.imagePath = imagePath;
-
     }
 }
